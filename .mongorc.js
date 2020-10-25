@@ -1,0 +1,1 @@
+/Users/nitin/.mongorc.js
