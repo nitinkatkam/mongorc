@@ -12,6 +12,12 @@ whoAmI = whoami; //alias
 DBQuery.prototype._prettyShell = true;
 
 
+//This is updated every 10 seconds (Is it related to the 10-sec noop?)
+//DB.prototype.serverTime = function() {
+//	print(new Date(db.old_serverStatus().operationTime.getTime()*1000))
+//}
+
+
 //function to reformat labels (remove quotes, display with color)
 function colorIt(objInput) {
   chrEsc = String.fromCharCode(27)
